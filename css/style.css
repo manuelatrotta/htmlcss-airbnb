@@ -3,15 +3,18 @@
   padding: 0;
   margin: 0;
 }
+/*body*/
 body{
   background-color: #1e2d3c;
   padding: 10%
 }
+/*general container*/
 .container{
   margin:auto;
   text-align: center;
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
+/*common features for imagines*/
 .image{
   position: relative;
   border: 5px solid #ffffff;
@@ -23,6 +26,7 @@ body{
   overflow: hidden;
   border: 5px solid #ffffff;
 }
+/*insert image for all city*/
 .amsterdam{
   background-image: url(../img/amsterdam.jpg);
 }
@@ -32,7 +36,7 @@ body{
 .paris {
   background-image: url(../img/paris.jpg);
 }
-
+/*class city*/
 .image .city{
   color: #ffffff;
   font-size: 10vh;
@@ -46,7 +50,8 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/*state hover for image*/
 .container:hover .image{
   cursor: pointer;
-  background-color: rgba(255, 0, 0, 5);
+  background-color: rgba(0, 0, 0, 0);
 }
