@@ -5,8 +5,43 @@
 }
 /*body*/
 body{
-  background-color: #1e2d3c;
-  padding: 10%
+  padding: 20%
+}
+main{
+  height: 40vh;
+  padding: 10%;
+}
+/*menu*/
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30vh;
+}
+.menu{
+  list-style: none;
+  text-align: center;
+  line-height: 3vh;
+}
+ul.menu a{
+  text-decoration: none;
+  color: #000000;
+}
+ul.menu li{
+  display: inline-block;
+  border: 2px solid #000000;
+  border-radius: 2px;
+  background-color: #FF768C;
+  border-bottom: 2px solid #000000;
+  box-shadow: 10px 10px 5px #dedede;
+
+}
+ul.menu li:active{
+  background-color: #FFCEB8;
+}
+ul.menu li:hover{
+  box-shadow: 10px 10px 5px #ffffff;
 }
 
 /*general container*/
