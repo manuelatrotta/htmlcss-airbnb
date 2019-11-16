@@ -72,6 +72,9 @@ ul.menu li:hover{
 .paris {
   background-image: url(../img/paris.jpg);
 }
+.amsterdam:hover{
+  background-image: ;
+}
 /*class city*/
 .image .city{
   color: #ffffff;
